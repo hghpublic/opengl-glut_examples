@@ -1,0 +1,818 @@
+
+<!-- saved from url=(0091)https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/advanced.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>OpenGL - Advanced</title>
+</head>
+
+<body link="#324155" vlink="#557D9B" alink="#29335B" bgcolor="#ffffff">
+
+<center>
+
+
+
+<a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/progs.html"><img src="./images/opengl.jpg" width="400" height="205"></a><br>
+
+
+
+<a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced.zip"><h1>advanced.zip</h1></a>
+
+
+
+<br><img src="./images/divider.gif" width="500" height="10"><br>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/accumaa.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Using the accumulation buffers to anti-alias a scene.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/accumaa.c">accumaa.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/accumaa.jpg">anti-aliased (shown)</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/accumaa1.jpg">aliased</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/af_depthcue.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Adding depthcue (fog) in a second rendering pass.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/af_depthcue.c">af_depthcue.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/af_depthcue.jpg">fog added by second pass (shown)</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/af_depthcue1.jpg">fog rendered normally</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/af_teapots.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> More detailed example of adding fog in a second rendering pass.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/af_teapots.c">af_teapots.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/af_teapots.jpg">linear fog (shown)</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/af_teapots1.jpg">linear fog added by second pass</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/convolve.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Using the accumulation buffer for fast convolutions.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/convolve.c">convolve.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/convolve.jpg">5x5 blur (shown)</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/convolve1.jpg">laplace transform</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/boundary.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br>
+
+   This example shows how to use the GLU polygon tessellator to determine the 
+
+   2D boundary of OpenGL rendered objects.  The program uses OpenGL's
+
+   feedback mechanim to capture transformed polygons and then feeds them to
+
+   the GLU tesselator in GLU_TESS_WINDING_NONZERO and GLU_TESS_BOUNDARY_ONLY
+
+   mode.
+
+  <br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/boundary.c">boundary.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/boundary.jpg">torus (shown)</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/csg.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Composite solid geometry using the stencil buffer.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/csg.c">csg.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/csg.jpg">A or B (shown)</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/csg1.jpg">A sub B</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/decal.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Decaling the letter "T" using the stencil buffer.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/decal.c">decal.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/decal.jpg">T decal(shown)</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/dissolve.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Dissolving using the stencil buffer.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/dissolve.c">dissolve.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/dissolve.jpg">dissolved checkerboard (shown)</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/envphong.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Demonstrates a use of environment texture mapping for improved highlight shading.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/envphong.c">envphong.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/envphong.jpg">sphere (shown)</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/envphong1.jpg">checkerboard torus</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/field.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Using the accumulation buffer for depth of field (camera focus blur).<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/field.c">field.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/field.jpg">depth of field(shown)</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/field1.jpg">normal</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/genmipmap.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Example of how to generate texture mipmap levels with the accumulation buffer.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/genmipmap.c">genmipmap.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/genmipmap.jpg">mandrill mipmap (shown)</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/haloed.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Draw haloed lines using the stencil buffer.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/haloed.c">haloed.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/haloed.jpg">torus (shown)</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/hello2rts.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Demonstrates a method of generating real-time shadows.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/hello2rts.c">hello2rts.c</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/rts.c">rts.c</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/rtshadow.h">rtshadow.h</a>.<br>
+
+  <br> Snapshots: <a href="./images/hello2rts.jpg">scene (shown)</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/hiddenline.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Line Rendering: Hidden line techniques.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/hiddenline.c">hiddenline.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/hiddenline.jpg">fat lines (shown)</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/imgproc.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Examples of various image processing operations coded as OpenGL
+
+   accumulation buffer operations.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/imgproc.c">imgproc.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/imgproc.jpg">saturated (shown)</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/mipmap_lines.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Survey of different mipmap filters.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/mipmap_lines.c">mipmap_lines.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/mipmap_lines.jpg">GLU mipmaps on the left, MITCHELL mipmaps on the right (shown)</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/motionblur.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Using the accumulation buffer for motion blur.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/motionblur.c">motionblur.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/motionblur.jpg">motion (shown)</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/motionblur1.jpg">normal</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/multilight.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> 
+
+   This program demonstrates virtualization of OpenGL's lights.  The idea is
+
+   that if an object is lit by many lights, it is computationally more
+
+   efficient to calculate the approximate lighting contribution of the
+
+   various lights per-object and only enable the "brightest" lights while
+
+   rendering the object.  This also lets you render scenes with more lights
+
+   than the OpenGL implementation light (usually 8).  Two approaches are
+
+   used:  The "distance-based" approach only enables the 8 closest lights
+
+   based purely on distance.  The "Lambertian-based" approach accounts for
+
+   diffuse lighting contributions and approximates the diffuse contribution.
+
+  <br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/multilight.c">multilight.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/multilight.jpg">scene (shown)</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/projshadow.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Rendering shadows using projective transforms.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/projshadow.c">projshadow.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/projshadow.jpg">shadows (shown)</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/projshadow1.jpg">no shadows</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/projtex.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Demonstrates simple projective texture mapping.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/projtex.c">projtex.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/projtex.jpg">cube (shown)</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/projtex1.jpg">three sides</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/rasonly.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Demonstrates the use of OpenGL for rasterization-only, with
+
+perspective-correct texture mapping.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/rasonly.c">rasonly.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/rasonly.jpg">textured plane (shown)</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/shadowfun.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> This program demonstrates a light source and object of arbitrary geometry casing a shadow on arbitary geometry.  The program uses OpenGL's feedback, stencil, and boundary tessellation support. <br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/shadowfun.c">shadowfun.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/shadowfun.jpg">shadows (shown)</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/shadowfun1.jpg">view from light</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/shadowvol.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Demonstrate shadow volume techniques.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/shadowvol.c">shadowvol.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/shadowvol.jpg">shadow (shown)</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/shadowvol1.jpg">volume</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/silhouette.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Generating silhouette edges with the stencil buffer.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/silhouette.c">silhouette.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/silhouette.jpg">torus (shown)</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/softshadow.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Demonstrate the use of accumulation buffer to create soft shadows.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/softshadow.c">softshadow.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/softshadow.jpg">soft shadows (shown)</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/softshadow1.jpg">no shadows</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/tess.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Different tesselations for a spherical shape.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/tess.c">tess.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/tess.jpg">geodesic (shown)</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/tess1.jpg">longitude/lattitude</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/textile.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Demonstration of how to "tile" together small textures with a result identical to if a much larger texture was drawn.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/textile.c">textile.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/textile.jpg">tiled (w/o borders) (shown)</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/textrim.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Trimming textures: demonstrates how alpha blending or alpha testing
+
+   can be used to "trim" the shape of textures to arbitrary shapes.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/textrim.c">textrim.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/textrim.jpg">alpha tested (shown)</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/textrim1.jpg">no alpha blending/testing</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/tvertex.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> T-vertex artifacts example.  The moral: Avoid vertex edge
+
+junctions that make a T-shape.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/tvertex.c">tvertex.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/tvertex.jpg">shaded T artifact (shown)</a>, <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/tvertex1.jpg">wireframe</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/warp.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Image warping operations can be done via OpenGL texture mapping.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/warp.c">warp.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/warp.jpg">warped mandrill (shown)</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br>
+
+<table border="3" width="520" cellpadding="6">
+
+<tbody><tr>
+
+ <td><img src="./images/zcomposite.jpg" width="256" height="256"></td>
+
+ <td valign="TOP">
+
+  <br> Compositing images that include depth information.<br>
+
+  <br> Source code: <a href="https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/zcomposite.c">zcomposite.c</a>.<br>
+
+  <br> Snapshots: <a href="./images/zcomposite.jpg">composited scene (shown)</a>.<br>
+
+ </td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<br><img src="./images/divider.gif" width="500" height="10"><br>
+
+
+
+<h5>Copyright © 1997 Silicon Graphics Incorporated.</h5>
+
+
+
+</center>
+
+</body></html>
