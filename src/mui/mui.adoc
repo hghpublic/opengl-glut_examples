@@ -1,0 +1,47 @@
+https://www.opengl.org/archives/resources/code/samples/glut_examples/progs.html[image:./images/opengl.jpg[./images/opengl,width=400,height=205]]
+https://www.opengl.org/archives/resources/code/samples/lib/mui[]
+
+== mui/
+
+
+image:./images/divider.gif[./images/divider,width=500,height=10]
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/calc.jpg[./images/calc,width=256,height=256] |
+Demonstrates the use of the MUI toolkit for creating great looking (and
+highly portable!) user interface components with GLUT and OpenGL.
+Reverse polish notation calculator.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/mui/calc/calc.c[calc.c].
+
+Zip file:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/mui/calc.zip[calc.zip].
+
+Snapshots: link:./images/calc.jpg[2 {plus} 2 = 4 (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/mui_test.jpg[./images/mui++_++test,width=256,height=256]
+|
+Test that emonstrates all the user interface components available in
+MUI.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/test/mui/mui_test.c[mui++_++test.c].
+
+Zip file:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/mui/mui.zip[mui.zip].
+
+Snapshots: link:./images/mui_test.jpg[mui++_++test (shown)].
+|===
+
+
+image:./images/divider.gif[./images/divider,width=500,height=10]
+
+====== Copyright © 1997 Silicon Graphics Incorporated.
