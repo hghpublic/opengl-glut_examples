@@ -1,0 +1,148 @@
+https://www.opengl.org/archives/resources/code/samples/glut_examples/progs.html[image:./images/opengl.jpg[./images/opengl]]
+https://www.opengl.org/archives/resources/code/samples/glut_examples/mesademos.zip[]
+
+== mesademos.zip
+
+
+image:./images/divider.gif[./images/divider]
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/bounce.jpg[./images/bounce] |
+A simple bouncing ball demo (color index mode only).
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/mesademos/bounce.c[bounce.c].
+
+Snapshots: link:./images/bounce.jpg[color index (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/gamma.jpg[./images/gamma] |
+Draw test patterns to help determine correct gamma value for a display.
+When the intensities in the top row nearly match the intensities in the
+bottom row you've found the right gamma value.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/mesademos/gamma.c[gamma.c].
+
+Snapshots: link:./images/gamma.jpg[gamma (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/gears.jpg[./images/gears] |
+Simple program with rotating 3-D gear wheels.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/mesademos/gears.c[gears.c].
+
+Snapshots: link:./images/gears.jpg[gears (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/offset.jpg[./images/offset] |
+Uses PolygonOffset to draw hidden-line images. PolygonOffset shifts the
+z values of polygons an amount that is proportional to their slope in
+screen z. This keeps the lines, which are drawn without displacement,
+from interacting with their respective polygons, and thus eliminates
+line dropouts. The left image shows an ordinary antialiased wireframe
+image. The center image shows an antialiased hidden-line image without
+PolygonOffset. The right image shows an antialiased hidden-line image
+using PolygonOffset to reduce artifacts.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/mesademos/offset.c[offset.c].
+
+Snapshots: link:./images/offset.jpg[offset (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/reflect.jpg[./images/reflect] |
+Reflection demo. The basic steps are: 1. Render the reflective object (a
+polygon) from the normal viewpoint, setting the stencil planes = 1. 2.
+Render the scene from a special viewpoint: the viewpoint which is on the
+opposite side of the reflective plane. Only draw where stencil = 1. This
+draws the objects in the reflective surface. 3. Render the scene from
+the original viewpoint. This draws the objects in the normal fashion.
+Use blending when drawing the reflective, textured surface.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/mesademos/reflect.c[reflect.c].
+
+Snapshots: link:./images/reflect.jpg[reflect (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/spin.jpg[./images/spin] |
+A very simple wireframe spinning box.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/mesademos/spin.c[spin.c].
+
+Snapshots: link:./images/spin.jpg[spin (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/tess_demo.jpg[./images/tess++_++demo] |
+Dynamic tesselation demonstration program.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/mesademos/tess_demo.c[tess++_++demo.c].
+
+Snapshots: link:./images/tess_demo.jpg[tess++_++demo (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/texobj.jpg[./images/texobj] |
+Example of using the 1.1 texture object functions. Also, this demo
+utilizes Mesa's fast texture map path.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/mesademos/texobj.c[texobj.c].
+
+Snapshots: link:./images/texobj.jpg[texobj (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/trdemo.jpg[./images/trdemo] |
+Test/demonstration of tile rendering utility library. This library
+allows one to render arbitrarily large images with OpenGL. The basic
+idea is to break the image into tiles which are rendered one at a time.
+The tiles are assembled together to form the final, large image. Tiles
+can be of any size.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/mesademos/trdemo.c[trdemo.c].
+
+Snapshots: link:./images/trdemo.jpg[trdemo (shown)].
+|===
+
+
+image:./images/divider.gif[./images/divider]
+
+====== Copyright © 1997 Silicon Graphics Incorporated.
