@@ -1,0 +1,56 @@
+= OpenGL- GLUT Program Sample Code
+:toc:
+:sectnums:
+ifndef::env-github[:icons: font]
+:note-caption: :paperclip:
+:important-caption: :exclamation:
+:warning-caption: :warning:
+
+[IMPORTANT]
+====
+The commit history of this branch is volatile. +
+Rebasing and force pushing happens at will. +
+The commits in this branch mostly collect changes with a narrow scope. +
+They rarely document code evolution. +
+The history may be rewritten without notice.
+====
+
+[NOTE]
+====
+The zip archives will remain untouched for historical reference.
+====
+
+[NOTE]
+====
+The expanded source files will receive minimal changes to keep them building and running with `freeglut` in a devcontainer.
+====
+
+== OpenGL- GLUT Program Sample Code
+
+https://www.opengl.org/archives/resources/code/samples/glut_examples/progs.html
+
+. link:https://www.opengl.org/archives/resources/code/samples/glut_examples/advanced/advanced.html[Advanced] Programs from the "Advanced Programming in OpenGL" course at SIGGRAPH '96 + a few more that snuck in
+. link:https://www.opengl.org/archives/resources/code/samples/glut_examples/contrib/contrib.html[Contrib] Programs that were contributed to the GLUT distribution
+. link:https://www.opengl.org/archives/resources/code/samples/glut_examples/demos/demos.html[Demos] Programs from the "Advanced Programming in OpenGL" course at SIGGRAPH '96 + a few more that snuck in
+. link:https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/examples.html[Examples] Programs that were contributed to the GLUT distribution
+. link:https://www.opengl.org/archives/resources/code/samples/glut_examples/mesademos/mesademos.html[Mesa Demos] GLUT versions of the demonstration programs that come with the Mesa 3D library.
+. link:https://www.opengl.org/archives/resources/code/samples/glut_examples/mui/mui.html[MUI (portable UI)] The portable user interface written in OpenGL with GLUT.
+. link:https://www.opengl.org/archives/resources/code/samples/glut_examples/texfont/texfont.html[Texfont] A library for creating fonts out of textures.
+
+== freeglut
+
+https://freeglut.sourceforge.net/
+
+=== GitHub
+
+https://github.com/freeglut/freeglut
+
+== glut
+
+https://github.com/markkilgard/glut
+
+=== mui library
+
+. https://github.com/markkilgard/glut/tree/master/include/mui
+. https://github.com/markkilgard/glut/tree/master/lib/mui
+
