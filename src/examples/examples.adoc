@@ -1,0 +1,549 @@
+https://www.opengl.org/archives/resources/code/samples/glut_examples/progs.html[image:./images/opengl.jpg[./images/opengl,width=400,height=205]]
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples.zip[]
+
+== examples.zip
+
+
+image:./images/divider.gif[./images/divider,width=500,height=10]
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/abgr.jpg[./images/abgr,width=256,height=256] |
+Demonstrates the use of the extension EXT++_++abgr. The same image data
+is used for both ABGR and RGBA formats in glDrawPixels and glTexImage2D.
+The left side uses ABGR, the right side RGBA. The top polygon
+demonstrates use of texture, and the bottom image is drawn with
+glDrawPixels. Note that the textures are defined as 3 component, so the
+alpha value is not used in applying the DECAL environment.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/abgr.c[abgr.c].
+
+Snapshots: link:./images/abgr.jpg[scene (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/bitfont.jpg[./images/bitfont,width=256,height=256] |
+Example of using GLUT bitmap fonts.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/bitfont.c[bitfont.c].
+
+Snapshots: link:./images/bitfont.jpg[text (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/blender.jpg[./images/blender,width=256,height=256] |
+Renders two spinning icosahedrons (red and green). The blending factors
+for the two icosahedrons vary sinusoidally and slightly out of phase.
+blender also renders two lines of text in a stroke font: one line
+antialiased, the other not.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/blender.c[blender.c].
+
+Snapshots: link:./images/blender.jpg[blend (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/cube.jpg[./images/cube,width=256,height=256] |
+A simple red cube drawn with minimal OpenGL calls.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/cube.c[cube.c].
+
+Snapshots: link:./images/cube.jpg[cube (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/dinoshade.jpg[./images/dinoshade,width=256,height=256]
+|
+Example for PC game developers to show how to combine texturing,
+reflections, and projected shadows all in real-time with OpenGL. Robust
+reflections use stenciling. Robust projected shadows use both stenciling
+and polygon offset.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/dinoshade.c[dinoshade.c].
+
+Snapshots: link:./images/dinoshade.jpg[scene (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/dinospin.jpg[./images/dinospin,width=256,height=256] |
+Arcball like rotation of a chunky dinosaur.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/dinospin.c[dinospin.c].
+
+Snapshots: link:./images/dinospin.jpg[spinning (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/evaltest.jpg[./images/evaltest,width=256,height=256] |
+OpenGL evaluators simple example with lots of options.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/evaltest.c[evaltest.c].
+
+Snapshots: link:./images/evaltest.jpg[rotated 3D (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/fogtst.jpg[./images/fogtst,width=256,height=256] |
+Demonstration program exhibiting fog techniques.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/fogtst.c[fogtst.c].
+
+Snapshots: link:./images/fogtst.jpg[dense fog (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/fontdemo.jpg[./images/fontdemo,width=256,height=256] |
+Bitmap and stroke fonts demonstration program.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/fontdemo.c[fontdemo.c].
+
+Snapshots: link:./images/fontdemo.jpg[fonts (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/glpuzzle.jpg[./images/glpuzzle,width=256,height=256] |
+3D puzzle that can solve itself automatically.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/glpuzzle.c[glpuzzle.c].
+
+Snapshots: link:./images/glpuzzle.jpg[mid-game (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/glutplane.jpg[./images/glutplane,width=256,height=256]
+|
+OpenGL planes a plenty - add and subtract them.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/glutplane.c[glutplane.c].
+
+Snapshots: link:./images/glutplane.jpg[flying high (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/halomagic.jpg[./images/halomagic,width=256,height=256]
+|
+Neat haloing effect using the stencil buffer.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/halomagic.c[halomagic.c].
+
+Snapshots: link:./images/halomagic.jpg[icosahedron (shown)],
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/halomagic1.jpg[dinosaur].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/highlight.jpg[./images/highlight,width=256,height=256]
+|
+This program demonstrates the use of the GL lighting model. Objects are
+drawn using a grey material characteristic. A single light source
+illuminates the objects.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/highlight.c[highlight.c].
+
+Snapshots: link:./images/highlight.jpg[red torus (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/lightlab.jpg[./images/lightlab,width=256,height=256] |
+Lighting laboratory to experiment with different material properties and
+lights.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/lightlab.c[lightlab.c].
+
+Snapshots: link:./images/lightlab.jpg[default (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/mjkwarp.jpg[./images/mjkwarp,width=256,height=256] |
+Texture warping example to show many texturing options of OpenGL.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/mjkwarp.c[mjkwarp.c].
+
+Snapshots: link:./images/mjkwarp.jpg[breakup (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/molehill.jpg[./images/molehill,width=256,height=256] |
+Really, really shiny nurbs/evaluators example.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/molehill.c[molehill.c].
+
+Snapshots: link:./images/molehill.jpg[scene (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/movelight.jpg[./images/movelight,width=256,height=256]
+|
+This program demonstrates when to issue lighting and transformation
+commands to render a model with a light which is moved by a modeling
+transformation (rotate or translate). The light position is reset after
+the modeling transformation is called. The eye position does not change.
+A sphere is drawn using a grey material characteristic. A single light
+source illuminates the object. Interaction: pressing the left or middle
+mouse button alters the modeling transformation (x rotation) by 30
+degrees. The scene is then redrawn with the light in a new position.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/movelight.c[movelight.c].
+
+Snapshots: link:./images/movelight.jpg[teapot (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/oclip.jpg[./images/oclip,width=256,height=256] |
+The main intent of this program is to demo the arbitrary clipping
+functionality, hence the rendering is kept simple (wireframe) and only
+one clipping plane is used.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/oclip.c[oclip.c].
+
+Snapshots: link:./images/oclip.jpg[clip (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/ohidden.jpg[./images/ohidden,width=256,height=256] |
+The main intent of this program is to demo the stencil plane
+functionality, hence the rendering is kept simple (wireframe).
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/ohidden.c[ohidden.c].
+
+Snapshots: link:./images/ohidden.jpg[lines away (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/olight.jpg[./images/olight,width=256,height=256] |
+OpenGL example showing how to do hardware lighting including two-sided
+lighting.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/olight.c[olight.c].
+
+Snapshots: link:./images/olight.jpg[two-sided (shown)],
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/olight1.jpg[single-sided].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/olympic.jpg[./images/olympic,width=256,height=256] |
+Flyging olympic logo. Press spacebar to animate.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/olympic.c[olympic.c].
+
+Snapshots: link:./images/olympic.jpg[motion (shown)],
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/olympic1.jpg[final
+image].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/origami.jpg[./images/origami,width=256,height=256] |
+Origami folding example (paper airplane).
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/origami.c[origami.c].
+
+Snapshots: link:./images/origami.jpg[first fold (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/sb2db.jpg[./images/sb2db,width=256,height=256] |
+This program demonstrates switching between single buffered and double
+buffered windows when using GLUT. Use the pop-up menu to change the
+buffering style used. On machine that split the screen's color
+resolution in half when double buffering, you should notice better
+coloration (less or no dithering) in single buffer mode (but flicker on
+redraws, particularly when rotation is toggled on).
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/sb2db.c[sb2db.c].
+
+Snapshots: link:./images/sb2db.jpg[scene (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/reflectdino.jpg[./images/reflectdino,width=256,height=256]
+|
+Very simple example of how to achieve reflections on a flat surface
+using OpenGL blending. The example has a mode using OpenGL stenciling to
+avoid drawing the reflection not on the top of the floor. Initially,
+stenciling is not used so if you look (by holding down the left mouse
+button and moving) at the dinosaur from "below" the floor, you'll see a
+bogus dinosaur and appreciate how the basic technique works. Enable
+stenciling with the popup menu and the bogus dinosaur goes away! Also,
+notice that OpenGL lighting works correctly with reflections.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/reflectdino.c[reflectdino.c].
+
+Snapshots: link:./images/reflectdino.jpg[reflectdino (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/scene.jpg[./images/scene,width=256,height=256] |
+This program demonstrates the use of the GL lighting model. Objects are
+drawn using a grey material characteristic. A single light source
+illuminates the objects.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/scene.c[scene.c].
+
+Snapshots: link:./images/scene.jpg[scene (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/screendoor.jpg[./images/screendoor,width=256,height=256]
+|
+Demonstrates "screen door" transparency using OpenGL's polygon stipple
+feature.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/screendoor.c[screendoor.c].
+
+Snapshots: link:./images/screendoor.jpg[default (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/scube.jpg[./images/scube,width=256,height=256] |
+Spinning cube with dynamic shadow (runs in color index mode too!).
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/scube.c[scube.c].
+
+Snapshots: link:./images/scube.jpg[rgb (shown)],
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/scube1.jpg[color
+index]..
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/simple.jpg[./images/simple,width=256,height=256] |
+Very simple example of how to draw a single triangle with OpenGL.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/simple.c[simple.c].
+
+Snapshots: link:./images/simple.jpg[scene (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/sphere.jpg[./images/sphere,width=256,height=256] |
+Multiple windows example with GLUT.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/sphere.c[sphere.c].
+
+Snapshots: link:./images/sphere.jpg[staged (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/splatlogo.jpg[./images/splatlogo,width=256,height=256]
+|
+Fun with bitmaps (and pixel transfer maps) in OpenGL.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/splatlogo.c[splatlogo.c].
+
+Snapshots: link:./images/splatlogo.jpg[messy (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/spots.jpg[./images/spots,width=256,height=256] |
+Excellent spotlight example showing direction of lights too.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/spots.c[spots.c].
+
+Snapshots: link:./images/spots.jpg[spots (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/stars.jpg[./images/stars,width=256,height=256] |
+Stars example program with turbo and crazy mode.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/stars.c[stars.c].
+
+Snapshots: link:./images/stars.jpg[warp (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/stenciltst.jpg[./images/stenciltst,width=256,height=256]
+|
+An example of how to use the stencil test.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/stenciltst.c[stenciltst.c].
+
+Snapshots: link:./images/stenciltst.jpg[scene (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/stroke.jpg[./images/stroke,width=256,height=256] |
+Stroke fonts using GLUT (antialiased).
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/stroke.c[stroke.c].
+
+Snapshots: link:./images/stroke.jpg[spin (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/subwin.jpg[./images/subwin,width=256,height=256] |
+Subwindows with GLUT - each gets its own color.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/subwin.c[subwin.c].
+
+Snapshots: link:./images/subwin.jpg[default (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/surfgrid.jpg[./images/surfgrid,width=256,height=256] |
+A surface with the grid that it is defined by highlighted.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/surfgrid.c[surfgrid.c].
+
+Snapshots: link:./images/surfgrid.jpg[torus (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/triselect.jpg[./images/triselect,width=256,height=256]
+|
+Triangle selection program. Click on the triangles to change their
+color.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/triselect.c[triselect.c].
+
+Snapshots: link:./images/triselect.jpg[picke me (shown)].
+|===
+
+
+image:./images/divider.gif[./images/divider,width=500,height=10]
+
+====== Copyright © 1997 Silicon Graphics Incorporated.
