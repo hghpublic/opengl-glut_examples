@@ -1,0 +1,152 @@
+https://www.opengl.org/archives/resources/code/samples/glut_examples/progs.html[image:./images/opengl.jpg[./images/opengl,width=400,height=205]]
+https://www.opengl.org/archives/resources/code/samples/glut_examples/contrib.zip[]
+
+== contrib.zip
+
+
+image:./images/divider.gif[./images/divider,width=500,height=10]
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/agv_example.jpg[./images/agv++_++example,width=256,height=256]
+|
+Implementation of a polar/flight model viewer.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/contrib/agv_example.c[agv++_++example.c],
+https://www.opengl.org/archives/resources/code/samples/glut_examples/contrib/agviewer.c[agviewer.c],
+https://www.opengl.org/archives/resources/code/samples/glut_examples/contrib/agviewer.h[agviewer.h].
+
+Snapshots: link:./images/agv_example.jpg[axes (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/fractals.jpg[./images/fractals,width=256,height=256] |
+Draws fractal mountains and trees -- and an island of mountains in
+water
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/contrib/fractals.c[fractals.c],
+https://www.opengl.org/archives/resources/code/samples/glut_examples/contrib/agviewer.c[fracviewer.c],
+https://www.opengl.org/archives/resources/code/samples/glut_examples/contrib/agviewer.h[fracviewer.h].
+
+Snapshots: link:./images/fractals.jpg[tree (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/gears.jpg[./images/gears,width=256,height=256] |
+Two detailed intertwining/rotating gears.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/contrib/gears.c[gears.c].
+
+Snapshots: link:./images/gears.jpg[scene (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/hanoi.jpg[./images/hanoi,width=256,height=256] |
+The classic game "The Towers of Hanoi" in OpenGL.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/contrib/hanoi.c[hanoi.c].
+
+Snapshots: link:./images/hanoi.jpg[during play (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/lineblend.jpg[./images/lineblend,width=256,height=256]
+|
+Left and middle buttons drawn colored lines, right button brings up a
+menu with a few options. If you draw for long enough and then hit pick
+"redraw" (or resize or uncover the window) it takes so long to redraw
+all the lines it is kind of like a kaleidoscope animation. Or
+something.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/contrib/lineblend.c[lineblend.c].
+
+Snapshots: link:./images/lineblend.jpg[sample image (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/moth.jpg[./images/moth,width=256,height=256] |
+Moth encircling a light in a town square.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/contrib/moth.c[moth.c].
+
+Snapshots: link:./images/moth.jpg[scene (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/rings.jpg[./images/rings,width=256,height=256] |
+Magic rings balancing on each other precariously.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/contrib/rings.c[rings.c].
+
+Snapshots: link:./images/rings.jpg[scene (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/steam.jpg[./images/steam,width=256,height=256] |
+OpenGL simulation of a miniature steam engine.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/contrib/steam.c[steam.c].
+
+Snapshots: link:./images/steam.jpg[mid-stroke (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/text3d.jpg[./images/text3d,width=256,height=256] |
+A simple flying three dimensional text logo.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/contrib/text3d.c[text3d.c].
+
+Snapshots: link:./images/text3d.jpg[axes (shown)].
+|===
+
+
+
+[width="100%",cols="50%,50%",]
+|===
+|image:./images/worms.jpg[./images/worms,width=256,height=256] |
+Squiggly worms that follow the mouse clicks.
+
+Source code:
+https://www.opengl.org/archives/resources/code/samples/glut_examples/contrib/worms.c[worms.c].
+
+Snapshots: link:./images/worms.jpg[axes (shown)].
+|===
+
+
+image:./images/divider.gif[./images/divider,width=500,height=10]
+
+====== Copyright © 1997 Silicon Graphics Incorporated.
