@@ -10,6 +10,7 @@
 #include <assert.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 #include <unistd.h>
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
@@ -373,7 +374,9 @@ main(int argc, char *argv[])
 
   texw = texh = 256;
   glist = " ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghijmklmnopqrstuvwxyz?.;,!*:\"/+@#$%^&()";
-  fontname = "-adobe-courier-bold-r-normal--46-*-100-100-m-*-iso8859-1";
+//   fontname = "-adobe-courier-bold-r-normal--46-*-100-100-m-*-iso8859-1";
+// xlsfonts | grep "\-adobe\-courier\-bold\-r\-normal"
+  fontname = "-adobe-courier-bold-r-normal--0-0-0-0-p-0-iso8859-1";
   filename = "default.txf";
 
   for (i = 1; i < argc; i++) {
@@ -411,8 +414,8 @@ main(int argc, char *argv[])
     printf(" -w #          textureWidth (def=%d)\n", texw);
     printf(" -h #          textureHeight (def=%d)\n", texh);
     printf(" -gap #        gap between glyphs (def=%d)\n", gap);
-    printf(" -bitmap       use a bitmap encoding (default)\n", gap);
-    printf(" -byte         use a byte encoding (less compact)\n", gap);
+    printf(" -bitmap       use a bitmap encoding (default)\n");
+    printf(" -byte         use a byte encoding (less compact)\n");
     printf(" -glist ABC    glyph list (def=%s)\n", glist);
     printf(" -fn name      X font name (def=%s)\n", fontname);
     printf(" -file name    output file for textured font (def=%s)\n", fontname);
