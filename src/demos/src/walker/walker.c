@@ -840,7 +840,7 @@ void CurveHandleMenu(int value)
 void CurveMenuInit(void)
 {
   int i;
-  char label[3];
+  char label[3+1];
 
   if (CurveEditMenu != -1) {
     glutDestroyMenu(CurveEditMenu);
