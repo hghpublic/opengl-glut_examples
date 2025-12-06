@@ -378,7 +378,7 @@ visible(int vis)
 const int TEXDIM = 256;
 GLfloat *tex = 0;
 
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
   static GLfloat sphere_mat[] =
   {1.f, .5f, 0.f, 1.f};

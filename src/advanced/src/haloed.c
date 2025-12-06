@@ -8,6 +8,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#define glPolygonOffsetEXT glPolygonOffset
+
 enum {CONE = 1};
 
 /* Draw a cone */

@@ -346,7 +346,7 @@ redraw(void)
 const int TEXDIM = 256;
 
 /* Parse arguments, and set up interface between OpenGL and window system */
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
   GLfloat *tex;
   static GLfloat lightpos[] =

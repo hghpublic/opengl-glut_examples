@@ -8,6 +8,8 @@
 #include <math.h>
 #include <GL/glut.h>
 
+#define glCopyTexImage2DEXT glCopyTexImage2D
+
 /* This program demonstrates shadows on IR using single pass projective
    texture method.  1. Render the scene with light position as the viewpoint
    and save the depth-map into texture image.  2. Use texgen to generate
@@ -410,6 +412,7 @@ init(void)
 int
 main(int argc, char *argv[])
 {
+  glutInit(&argc, argv);
   glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH);
   glutInitWindowSize(width, height);
   glutCreateWindow("Shadow Map");

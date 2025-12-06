@@ -190,7 +190,7 @@ void key(unsigned char key, int x, int y)
 
 const int TEXDIM = 256;
 /* Parse arguments, and set up interface between OpenGL and window system */
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     /* material properties for objects in scene */
     static GLfloat wall_mat[] = {1.f, 1.f, 1.f, 1.f};

@@ -60,6 +60,8 @@
 
 #include <GL/glut.h>
 
+#define glTexImage3DEXT glTexImage3D
+
 #define ABS(a)   (((a) >= 0) ? (a) : -(a))
 #define _XY    1
 #define _YZ    2

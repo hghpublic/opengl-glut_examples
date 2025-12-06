@@ -34,6 +34,9 @@
 #define TOBJ_BASE 200
 #define TEXSIZE   256   /* default texture-size */
 
+#define glBindTextureEXT glBindTexture
+#define glCopyTexSubImage2DEXT glCopyTexSubImage2D
+
 typedef struct _vector {
   float x, y, z;
 } vector_t;
@@ -376,7 +379,7 @@ parse(int argc, char *argv[])
 #define check_arg(i, n, str) \
   if (argc < i+n) {       \
     fprintf(stderr, "%s needs an argument\n", str);  \
-    fprintf(stderr, usage); \
+    fprintf(stderr, "%s", usage); \
     exit(1); \
   }
 
@@ -403,7 +406,7 @@ parse(int argc, char *argv[])
         face[j].filename = strdup(argv[++i]);
 
     } else if (!strcmp(argv[i], "-help")) {
-      fprintf(stderr, usage);
+      fprintf(stderr, "%s", usage);
       exit(0);
 
     } else if (!strcmp(argv[i], "-hw")) {
@@ -414,7 +417,7 @@ parse(int argc, char *argv[])
         opts.spheremap_file = strdup(argv[i]);
       else {
         fprintf(stderr, "Error: unrecognized option %s\n", argv[i]);
-        fprintf(stderr, usage);
+        fprintf(stderr, "%s", usage);
         exit(1);
       }
     }
@@ -619,6 +622,7 @@ int
 main(int argc, char *argv[])
 {
   parse(argc, argv);
+  glutInit(&argc, argv);
   glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH);
   glutInitWindowSize(currwidth, currheight);
   glutCreateWindow("Environment map");

@@ -72,6 +72,8 @@ static int hasBlendSubtract = 0;
 static const int hasBlendSubtract = 0;
 #endif
 
+#define glBlendEquationEXT glBlendEquation
+
 /* Coordinates. */
 enum {
   X, Y, Z
@@ -858,7 +860,7 @@ createTessellationContext(void)
   gluTessCallback(tess, GLU_TESS_VERTEX_DATA, (void (CALLBACK*)()) &vertex);
   gluTessCallback(tess, GLU_TESS_COMBINE_DATA, (void (CALLBACK*)()) &combine);
   gluTessCallback(tess, GLU_TESS_END_DATA, (void (CALLBACK*)()) &end);
-  gluTessCallback(tess, GLU_TESS_ERROR, error);
+  gluTessCallback(tess, GLU_TESS_ERROR, (_GLUfuncptr)error);
   context->tess = tess;
 
 #ifdef MP

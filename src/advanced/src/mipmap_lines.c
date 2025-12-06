@@ -10,6 +10,8 @@
 #include "texture.h"
 #include "izoom.h"
 
+#define glBindTextureEXT glBindTexture
+
 static int w = 1024, h = 512;
 
 void 
