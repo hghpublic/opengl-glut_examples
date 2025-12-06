@@ -1,0 +1,8 @@
+= glut
+
+https://github.com/markkilgard/glut
+
+== mui library
+
+. https://github.com/markkilgard/glut/tree/master/include/mui
+. https://github.com/markkilgard/glut/tree/master/lib/mui
