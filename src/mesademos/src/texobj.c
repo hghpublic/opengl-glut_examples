@@ -244,7 +244,7 @@ visible(int vis)
     glutIdleFunc(NULL);
 }
 
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
   glutInit(&argc, argv);
   glutInitDisplayMode(GLUT_RGB | GLUT_DEPTH | GLUT_DOUBLE);

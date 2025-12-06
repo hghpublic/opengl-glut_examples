@@ -15,6 +15,10 @@
 #include <math.h>
 #include <GL/glut.h>
 
+#define glDrawArraysEXT glDrawArrays
+#define glVertexPointerEXT glVertexPointer
+#define glNormalPointerEXT glNormalPointer
+
 GLboolean speed_test = GL_FALSE;
 GLboolean use_vertex_arrays = GL_FALSE;
 

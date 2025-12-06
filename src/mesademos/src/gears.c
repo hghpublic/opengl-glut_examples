@@ -304,7 +304,7 @@ visible(int vis)
     glutIdleFunc(NULL);
 }
 
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
   glutInit(&argc, argv);
   if (argc > 1) {
