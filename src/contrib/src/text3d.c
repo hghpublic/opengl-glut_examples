@@ -256,9 +256,9 @@ void extrudeSolidFromPolygon(GLfloat data[][3], unsigned int dataSize,
     if (tobj == NULL) {
     	tobj = gluNewTess();
     	
-    	gluTessCallback(tobj, GLU_BEGIN, glBegin);
-    	gluTessCallback(tobj, GLU_VERTEX, glVertex3fv);
-    	gluTessCallback(tobj, GLU_END, glEnd);
+    	gluTessCallback(tobj, GLU_BEGIN, (_GLUfuncptr)glBegin);
+    	gluTessCallback(tobj, GLU_VERTEX, (_GLUfuncptr)glVertex3fv);
+    	gluTessCallback(tobj, GLU_END, (_GLUfuncptr)glEnd);
     }
     glNewList(side, GL_COMPILE);
     	glShadeModel(GL_SMOOTH);
