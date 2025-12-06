@@ -283,7 +283,7 @@ int dirlevels(char *s)
 
 int cat(void)
 {
-	register i, j;
+	int i, j;
 	char *name = directory + 1;	/* I love C */
 
 	i = -1;
@@ -313,10 +313,13 @@ void pwd(void)
 			fprintf(stderr,"pwd: cannot open ..\n");
 			exit(2);
 		}
+        // FIXME: invalid use of incomplete typedef 'DIR'
+#if 0
 		if(fstat(file->dd_fd, &dd) < 0) {
 			fprintf(stderr, "pwd: cannot stat ..!\n");
 			exit(2);
 		}
+#endif
 		if(chdir(dotdot) < 0) {
 			fprintf(stderr, "pwd: cannot chdir to ..\n");
 			exit(2);
