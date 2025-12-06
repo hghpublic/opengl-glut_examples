@@ -34,6 +34,8 @@
 #define W 600
 #define H 600
 
+#define glPolygonOffsetEXT glPolygonOffset
+
 float z_axis[] =
 {0.0, 0.0, 1.0};
 

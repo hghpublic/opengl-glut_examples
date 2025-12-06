@@ -9,6 +9,8 @@
 #include <stdio.h>
 #include <GL/glut.h>
 
+#define glPolygonOffsetEXT glPolygonOffset
+
 /* Uses EXT_polygon_offset extension if available to better
    render the fold outlines. */
 
